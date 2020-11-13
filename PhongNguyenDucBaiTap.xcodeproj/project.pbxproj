@@ -12,8 +12,17 @@
 		3A1141E6252AC6E300AEFC7D /* StaffTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A1141E4252AC6E300AEFC7D /* StaffTableViewCell.xib */; };
 		3A1141EB252AD48D00AEFC7D /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1141E9252AD48D00AEFC7D /* EditViewController.swift */; };
 		3A1141EC252AD48D00AEFC7D /* EditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A1141EA252AD48D00AEFC7D /* EditViewController.xib */; };
+		3A1208EF255E29DA00FF583F /* BaiTap2ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1208EE255E29DA00FF583F /* BaiTap2ViewModel.swift */; };
 		3A37933D252878B50082AD64 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A37933C252878B50082AD64 /* BaseRequest.swift */; };
 		3A37933F25287AF30082AD64 /* StaffObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A37933E25287AF30082AD64 /* StaffObject.swift */; };
+		3A3B419B255A39EB007E7C71 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3B4199255A39EB007E7C71 /* MainViewController.swift */; };
+		3A3B41A0255A3B1C007E7C71 /* BaiTap2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3B419E255A3B1C007E7C71 /* BaiTap2ViewController.swift */; };
+		3A3B41A1255A3B1C007E7C71 /* BaiTap2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A3B419F255A3B1C007E7C71 /* BaiTap2ViewController.xib */; };
+		3A3B41A3255A3CD7007E7C71 /* BaiTap2Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3B41A2255A3CD7007E7C71 /* BaiTap2Object.swift */; };
+		3A3B41A6255A3EF5007E7C71 /* ZoomOutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3B41A4255A3EF5007E7C71 /* ZoomOutTableViewCell.swift */; };
+		3A3B41A7255A3EF5007E7C71 /* ZoomOutTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A3B41A5255A3EF5007E7C71 /* ZoomOutTableViewCell.xib */; };
+		3A3B41AA255A3F91007E7C71 /* ZoomInTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3B41A8255A3F91007E7C71 /* ZoomInTableViewCell.swift */; };
+		3A3B41AB255A3F91007E7C71 /* ZoomInTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A3B41A9255A3F91007E7C71 /* ZoomInTableViewCell.xib */; };
 		3AA06FDA2526E13600A909B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA06FD92526E13600A909B0 /* AppDelegate.swift */; };
 		3AA06FDC2526E13600A909B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA06FDB2526E13600A909B0 /* SceneDelegate.swift */; };
 		3AA06FDE2526E13600A909B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA06FDD2526E13600A909B0 /* ViewController.swift */; };
@@ -29,8 +38,17 @@
 		3A1141E4252AC6E300AEFC7D /* StaffTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StaffTableViewCell.xib; sourceTree = "<group>"; };
 		3A1141E9252AD48D00AEFC7D /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 		3A1141EA252AD48D00AEFC7D /* EditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditViewController.xib; sourceTree = "<group>"; };
+		3A1208EE255E29DA00FF583F /* BaiTap2ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiTap2ViewModel.swift; sourceTree = "<group>"; };
 		3A37933C252878B50082AD64 /* BaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
 		3A37933E25287AF30082AD64 /* StaffObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffObject.swift; sourceTree = "<group>"; };
+		3A3B4199255A39EB007E7C71 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3A3B419E255A3B1C007E7C71 /* BaiTap2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiTap2ViewController.swift; sourceTree = "<group>"; };
+		3A3B419F255A3B1C007E7C71 /* BaiTap2ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaiTap2ViewController.xib; sourceTree = "<group>"; };
+		3A3B41A2255A3CD7007E7C71 /* BaiTap2Object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiTap2Object.swift; sourceTree = "<group>"; };
+		3A3B41A4255A3EF5007E7C71 /* ZoomOutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomOutTableViewCell.swift; sourceTree = "<group>"; };
+		3A3B41A5255A3EF5007E7C71 /* ZoomOutTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZoomOutTableViewCell.xib; sourceTree = "<group>"; };
+		3A3B41A8255A3F91007E7C71 /* ZoomInTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomInTableViewCell.swift; sourceTree = "<group>"; };
+		3A3B41A9255A3F91007E7C71 /* ZoomInTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZoomInTableViewCell.xib; sourceTree = "<group>"; };
 		3AA06FD62526E13600A909B0 /* PhongNguyenDucBaiTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhongNguyenDucBaiTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AA06FD92526E13600A909B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AA06FDB2526E13600A909B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +81,21 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		3A3B419D255A3B05007E7C71 /* BaiTap2 */ = {
+			isa = PBXGroup;
+			children = (
+				3A1208EE255E29DA00FF583F /* BaiTap2ViewModel.swift */,
+				3A3B419E255A3B1C007E7C71 /* BaiTap2ViewController.swift */,
+				3A3B419F255A3B1C007E7C71 /* BaiTap2ViewController.xib */,
+				3A3B41A2255A3CD7007E7C71 /* BaiTap2Object.swift */,
+				3A3B41A4255A3EF5007E7C71 /* ZoomOutTableViewCell.swift */,
+				3A3B41A5255A3EF5007E7C71 /* ZoomOutTableViewCell.xib */,
+				3A3B41A8255A3F91007E7C71 /* ZoomInTableViewCell.swift */,
+				3A3B41A9255A3F91007E7C71 /* ZoomInTableViewCell.xib */,
+			);
+			path = BaiTap2;
+			sourceTree = "<group>";
+		};
 		3AA06FCD2526E13600A909B0 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +117,7 @@
 		3AA06FD82526E13600A909B0 /* PhongNguyenDucBaiTap */ = {
 			isa = PBXGroup;
 			children = (
+				3A3B419D255A3B05007E7C71 /* BaiTap2 */,
 				3A1141E2252AC6C100AEFC7D /* Cell */,
 				3AA06FD92526E13600A909B0 /* AppDelegate.swift */,
 				3AA06FDB2526E13600A909B0 /* SceneDelegate.swift */,
@@ -96,6 +130,7 @@
 				3A37933E25287AF30082AD64 /* StaffObject.swift */,
 				3A1141E9252AD48D00AEFC7D /* EditViewController.swift */,
 				3A1141EA252AD48D00AEFC7D /* EditViewController.xib */,
+				3A3B4199255A39EB007E7C71 /* MainViewController.swift */,
 			);
 			path = PhongNguyenDucBaiTap;
 			sourceTree = "<group>";
@@ -177,11 +212,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A3B41A7255A3EF5007E7C71 /* ZoomOutTableViewCell.xib in Resources */,
 				3AA06FE62526E13700A909B0 /* LaunchScreen.storyboard in Resources */,
 				3AA06FE32526E13700A909B0 /* Assets.xcassets in Resources */,
 				3A1141EC252AD48D00AEFC7D /* EditViewController.xib in Resources */,
 				3A1141E6252AC6E300AEFC7D /* StaffTableViewCell.xib in Resources */,
+				3A3B41A1255A3B1C007E7C71 /* BaiTap2ViewController.xib in Resources */,
 				3AA06FE12526E13600A909B0 /* Main.storyboard in Resources */,
+				3A3B41AB255A3F91007E7C71 /* ZoomInTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,9 +276,15 @@
 				3A37933F25287AF30082AD64 /* StaffObject.swift in Sources */,
 				3AA06FDE2526E13600A909B0 /* ViewController.swift in Sources */,
 				3AA06FDA2526E13600A909B0 /* AppDelegate.swift in Sources */,
+				3A3B41A6255A3EF5007E7C71 /* ZoomOutTableViewCell.swift in Sources */,
+				3A3B41A0255A3B1C007E7C71 /* BaiTap2ViewController.swift in Sources */,
 				3A1141E5252AC6E300AEFC7D /* StaffTableViewCell.swift in Sources */,
+				3A3B41AA255A3F91007E7C71 /* ZoomInTableViewCell.swift in Sources */,
 				3AA06FDC2526E13600A909B0 /* SceneDelegate.swift in Sources */,
 				3A1141EB252AD48D00AEFC7D /* EditViewController.swift in Sources */,
+				3A3B41A3255A3CD7007E7C71 /* BaiTap2Object.swift in Sources */,
+				3A1208EF255E29DA00FF583F /* BaiTap2ViewModel.swift in Sources */,
+				3A3B419B255A39EB007E7C71 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

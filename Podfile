@@ -8,5 +8,7 @@ target 'PhongNguyenDucBaiTap' do
   # Pods for PhongNguyenDucBaiTap
 pod 'ObjectMapper'
 pod 'Alamofire'
+pod 'RxSwift'
+pod 'RxCocoa'
 
 end

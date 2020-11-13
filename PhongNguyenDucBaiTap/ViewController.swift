@@ -17,6 +17,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.navigationController?.title = "Bài tập 1"
+        
         self.tableView.register(UINib(nibName: "StaffTableViewCell", bundle: nil), forCellReuseIdentifier: "StaffTableViewCell")
         
         self.baseRequest.requestUrl(url: "https://my-json-server.typicode.com/vantrung8794/ttcTrainingRepo/db",
