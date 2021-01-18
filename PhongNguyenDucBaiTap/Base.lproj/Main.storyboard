@@ -54,17 +54,24 @@
                                 <rect key="frame" x="15" y="103" width="384" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1OI-7d-EFW">
-                                        <rect key="frame" x="0.0" y="0.0" width="192" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="128" height="30"/>
                                         <state key="normal" title="Bài tập 1"/>
                                         <connections>
                                             <action selector="bt1action:" destination="2ki-fL-qOj" eventType="touchUpInside" id="k9I-hG-Bgl"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TDI-Bw-dnF">
-                                        <rect key="frame" x="192" y="0.0" width="192" height="30"/>
+                                        <rect key="frame" x="128" y="0.0" width="128" height="30"/>
                                         <state key="normal" title="Bài tập 2"/>
                                         <connections>
                                             <action selector="bt2action:" destination="2ki-fL-qOj" eventType="touchUpInside" id="Yox-Zq-JmB"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kDq-Lt-SIY">
+                                        <rect key="frame" x="256" y="0.0" width="128" height="30"/>
+                                        <state key="normal" title="Bài tập 3"/>
+                                        <connections>
+                                            <action selector="bt3Action:" destination="2ki-fL-qOj" eventType="touchUpInside" id="kQ0-7q-dI0"/>
                                         </connections>
                                     </button>
                                 </subviews>

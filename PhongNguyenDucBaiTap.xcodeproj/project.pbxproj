@@ -29,6 +29,12 @@
 		3AA06FE12526E13600A909B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AA06FDF2526E13600A909B0 /* Main.storyboard */; };
 		3AA06FE32526E13700A909B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AA06FE22526E13700A909B0 /* Assets.xcassets */; };
 		3AA06FE62526E13700A909B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AA06FE42526E13700A909B0 /* LaunchScreen.storyboard */; };
+		3AC4E64F25B5774300ED8DEB /* CallAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4E64E25B5774300ED8DEB /* CallAPI.swift */; };
+		3AD046DB25B56F5900CCCC9E /* BaiTap3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD046D925B56F5900CCCC9E /* BaiTap3ViewController.swift */; };
+		3AD046DC25B56F5900CCCC9E /* BaiTap3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AD046DA25B56F5900CCCC9E /* BaiTap3ViewController.xib */; };
+		3AD046DE25B56F6900CCCC9E /* BaiTap3Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD046DD25B56F6900CCCC9E /* BaiTap3Object.swift */; };
+		3AD046E225B56FB200CCCC9E /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AD046E025B56FB200CCCC9E /* ImageCell.xib */; };
+		3AD046E325B56FB200CCCC9E /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD046E125B56FB200CCCC9E /* ImageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +63,12 @@
 		3AA06FE22526E13700A909B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AA06FE52526E13700A909B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AA06FE72526E13700A909B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AC4E64E25B5774300ED8DEB /* CallAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallAPI.swift; sourceTree = "<group>"; };
+		3AD046D925B56F5900CCCC9E /* BaiTap3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiTap3ViewController.swift; sourceTree = "<group>"; };
+		3AD046DA25B56F5900CCCC9E /* BaiTap3ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaiTap3ViewController.xib; sourceTree = "<group>"; };
+		3AD046DD25B56F6900CCCC9E /* BaiTap3Object.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaiTap3Object.swift; sourceTree = "<group>"; };
+		3AD046E025B56FB200CCCC9E /* ImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
+		3AD046E125B56FB200CCCC9E /* ImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		55552024A2A13319BE88B940 /* Pods_PhongNguyenDucBaiTap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhongNguyenDucBaiTap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -117,6 +129,7 @@
 		3AA06FD82526E13600A909B0 /* PhongNguyenDucBaiTap */ = {
 			isa = PBXGroup;
 			children = (
+				3AD046D825B56F3F00CCCC9E /* BaiTap3 */,
 				3A3B419D255A3B05007E7C71 /* BaiTap2 */,
 				3A1141E2252AC6C100AEFC7D /* Cell */,
 				3AA06FD92526E13600A909B0 /* AppDelegate.swift */,
@@ -133,6 +146,27 @@
 				3A3B4199255A39EB007E7C71 /* MainViewController.swift */,
 			);
 			path = PhongNguyenDucBaiTap;
+			sourceTree = "<group>";
+		};
+		3AD046D825B56F3F00CCCC9E /* BaiTap3 */ = {
+			isa = PBXGroup;
+			children = (
+				3AC4E64E25B5774300ED8DEB /* CallAPI.swift */,
+				3AD046DF25B56FB200CCCC9E /* Cell */,
+				3AD046DD25B56F6900CCCC9E /* BaiTap3Object.swift */,
+				3AD046D925B56F5900CCCC9E /* BaiTap3ViewController.swift */,
+				3AD046DA25B56F5900CCCC9E /* BaiTap3ViewController.xib */,
+			);
+			path = BaiTap3;
+			sourceTree = "<group>";
+		};
+		3AD046DF25B56FB200CCCC9E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3AD046E025B56FB200CCCC9E /* ImageCell.xib */,
+				3AD046E125B56FB200CCCC9E /* ImageCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		5D41B784E1849BE43A2FD81F /* Pods */ = {
@@ -213,7 +247,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A3B41A7255A3EF5007E7C71 /* ZoomOutTableViewCell.xib in Resources */,
+				3AD046DC25B56F5900CCCC9E /* BaiTap3ViewController.xib in Resources */,
 				3AA06FE62526E13700A909B0 /* LaunchScreen.storyboard in Resources */,
+				3AD046E225B56FB200CCCC9E /* ImageCell.xib in Resources */,
 				3AA06FE32526E13700A909B0 /* Assets.xcassets in Resources */,
 				3A1141EC252AD48D00AEFC7D /* EditViewController.xib in Resources */,
 				3A1141E6252AC6E300AEFC7D /* StaffTableViewCell.xib in Resources */,
@@ -273,8 +309,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A37933D252878B50082AD64 /* BaseRequest.swift in Sources */,
+				3AC4E64F25B5774300ED8DEB /* CallAPI.swift in Sources */,
 				3A37933F25287AF30082AD64 /* StaffObject.swift in Sources */,
 				3AA06FDE2526E13600A909B0 /* ViewController.swift in Sources */,
+				3AD046DE25B56F6900CCCC9E /* BaiTap3Object.swift in Sources */,
+				3AD046DB25B56F5900CCCC9E /* BaiTap3ViewController.swift in Sources */,
 				3AA06FDA2526E13600A909B0 /* AppDelegate.swift in Sources */,
 				3A3B41A6255A3EF5007E7C71 /* ZoomOutTableViewCell.swift in Sources */,
 				3A3B41A0255A3B1C007E7C71 /* BaiTap2ViewController.swift in Sources */,
@@ -283,6 +322,7 @@
 				3AA06FDC2526E13600A909B0 /* SceneDelegate.swift in Sources */,
 				3A1141EB252AD48D00AEFC7D /* EditViewController.swift in Sources */,
 				3A3B41A3255A3CD7007E7C71 /* BaiTap2Object.swift in Sources */,
+				3AD046E325B56FB200CCCC9E /* ImageCell.swift in Sources */,
 				3A1208EF255E29DA00FF583F /* BaiTap2ViewModel.swift in Sources */,
 				3A3B419B255A39EB007E7C71 /* MainViewController.swift in Sources */,
 			);

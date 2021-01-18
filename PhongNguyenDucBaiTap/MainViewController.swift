@@ -24,4 +24,9 @@ class MainViewController: UIViewController {
         let vc2 = BaiTap2ViewController.init(nibName: "BaiTap2ViewController", bundle: nil)
         self.navigationController?.pushViewController(vc2, animated: true)
     }
+    
+    @IBAction func bt3Action(_ sender: Any) {
+        let vc3 = BaiTap3ViewController.init(nibName: "BaiTap3ViewController", bundle: nil)
+        self.navigationController?.pushViewController(vc3, animated: true)
+    }
 }
