@@ -76,17 +76,28 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t5V-qv-UdA" customClass="VTCalendarView" customModule="PhongNguyenDucBaiTap" customModuleProvider="target">
+                                <rect key="frame" x="20" y="153" width="374" height="380"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="380" id="mb6-fS-GqE"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="dyY-3y-oaP" firstAttribute="trailing" secondItem="g5D-6i-RUp" secondAttribute="trailing" constant="15" id="4K8-bq-Qva"/>
+                            <constraint firstItem="t5V-qv-UdA" firstAttribute="top" secondItem="g5D-6i-RUp" secondAttribute="bottom" constant="20" id="94W-FH-dgz"/>
+                            <constraint firstItem="dyY-3y-oaP" firstAttribute="trailing" secondItem="t5V-qv-UdA" secondAttribute="trailing" constant="20" id="njq-Vn-Own"/>
                             <constraint firstItem="g5D-6i-RUp" firstAttribute="leading" secondItem="dyY-3y-oaP" secondAttribute="leading" constant="15" id="voH-kP-Plz"/>
                             <constraint firstItem="g5D-6i-RUp" firstAttribute="top" secondItem="dyY-3y-oaP" secondAttribute="top" constant="15" id="ysz-bh-sFN"/>
+                            <constraint firstItem="t5V-qv-UdA" firstAttribute="leading" secondItem="dyY-3y-oaP" secondAttribute="leading" constant="20" id="zgE-CN-fP7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="dyY-3y-oaP"/>
                     </view>
                     <navigationItem key="navigationItem" id="LVR-jq-6Zj"/>
                     <connections>
+                        <outlet property="calendarView" destination="t5V-qv-UdA" id="55B-bS-0ol"/>
                         <segue destination="BYZ-38-t0r" kind="push" id="TDQ-x0-pMh"/>
                     </connections>
                 </viewController>

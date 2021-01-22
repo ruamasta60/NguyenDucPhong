@@ -62,3 +62,13 @@ class StaffObject: NSObject, Mappable {
         status <- map["status"]
     }
 }
+
+class DayObject: NSObject {
+    var day: String?
+    var isSelect: Bool?
+    
+    init(day: String, isSelect: Bool) {
+        self.day = day
+        self.isSelect = isSelect
+    }
+}

@@ -23,6 +23,13 @@
 		3A3B41A7255A3EF5007E7C71 /* ZoomOutTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A3B41A5255A3EF5007E7C71 /* ZoomOutTableViewCell.xib */; };
 		3A3B41AA255A3F91007E7C71 /* ZoomInTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3B41A8255A3F91007E7C71 /* ZoomInTableViewCell.swift */; };
 		3A3B41AB255A3F91007E7C71 /* ZoomInTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A3B41A9255A3F91007E7C71 /* ZoomInTableViewCell.xib */; };
+		3A5CA79A25B92B930029EC3C /* VTCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5CA79325B92B910029EC3C /* VTCalendarView.swift */; };
+		3A5CA79B25B92B930029EC3C /* CalendarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5CA79425B92B910029EC3C /* CalendarViewCell.swift */; };
+		3A5CA79C25B92B930029EC3C /* VTCalendarViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5CA79525B92B920029EC3C /* VTCalendarViewDelegate.swift */; };
+		3A5CA79D25B92B930029EC3C /* CalendarViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A5CA79625B92B920029EC3C /* CalendarViewCell.xib */; };
+		3A5CA79E25B92B930029EC3C /* VTDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5CA79725B92B930029EC3C /* VTDate.swift */; };
+		3A5CA79F25B92B930029EC3C /* VTCalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A5CA79825B92B930029EC3C /* VTCalendarView.xib */; };
+		3A5CA7A025B92B930029EC3C /* CalendarAssest.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A5CA79925B92B930029EC3C /* CalendarAssest.xcassets */; };
 		3AA06FDA2526E13600A909B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA06FD92526E13600A909B0 /* AppDelegate.swift */; };
 		3AA06FDC2526E13600A909B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA06FDB2526E13600A909B0 /* SceneDelegate.swift */; };
 		3AA06FDE2526E13600A909B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA06FDD2526E13600A909B0 /* ViewController.swift */; };
@@ -55,6 +62,13 @@
 		3A3B41A5255A3EF5007E7C71 /* ZoomOutTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZoomOutTableViewCell.xib; sourceTree = "<group>"; };
 		3A3B41A8255A3F91007E7C71 /* ZoomInTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomInTableViewCell.swift; sourceTree = "<group>"; };
 		3A3B41A9255A3F91007E7C71 /* ZoomInTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZoomInTableViewCell.xib; sourceTree = "<group>"; };
+		3A5CA79325B92B910029EC3C /* VTCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTCalendarView.swift; sourceTree = "<group>"; };
+		3A5CA79425B92B910029EC3C /* CalendarViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewCell.swift; sourceTree = "<group>"; };
+		3A5CA79525B92B920029EC3C /* VTCalendarViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTCalendarViewDelegate.swift; sourceTree = "<group>"; };
+		3A5CA79625B92B920029EC3C /* CalendarViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarViewCell.xib; sourceTree = "<group>"; };
+		3A5CA79725B92B930029EC3C /* VTDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTDate.swift; sourceTree = "<group>"; };
+		3A5CA79825B92B930029EC3C /* VTCalendarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VTCalendarView.xib; sourceTree = "<group>"; };
+		3A5CA79925B92B930029EC3C /* CalendarAssest.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CalendarAssest.xcassets; sourceTree = "<group>"; };
 		3AA06FD62526E13600A909B0 /* PhongNguyenDucBaiTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhongNguyenDucBaiTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AA06FD92526E13600A909B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AA06FDB2526E13600A909B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +143,13 @@
 		3AA06FD82526E13600A909B0 /* PhongNguyenDucBaiTap */ = {
 			isa = PBXGroup;
 			children = (
+				3A5CA79925B92B930029EC3C /* CalendarAssest.xcassets */,
+				3A5CA79425B92B910029EC3C /* CalendarViewCell.swift */,
+				3A5CA79625B92B920029EC3C /* CalendarViewCell.xib */,
+				3A5CA79325B92B910029EC3C /* VTCalendarView.swift */,
+				3A5CA79825B92B930029EC3C /* VTCalendarView.xib */,
+				3A5CA79525B92B920029EC3C /* VTCalendarViewDelegate.swift */,
+				3A5CA79725B92B930029EC3C /* VTDate.swift */,
 				3AD046D825B56F3F00CCCC9E /* BaiTap3 */,
 				3A3B419D255A3B05007E7C71 /* BaiTap2 */,
 				3A1141E2252AC6C100AEFC7D /* Cell */,
@@ -247,12 +268,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A3B41A7255A3EF5007E7C71 /* ZoomOutTableViewCell.xib in Resources */,
+				3A5CA79D25B92B930029EC3C /* CalendarViewCell.xib in Resources */,
 				3AD046DC25B56F5900CCCC9E /* BaiTap3ViewController.xib in Resources */,
 				3AA06FE62526E13700A909B0 /* LaunchScreen.storyboard in Resources */,
 				3AD046E225B56FB200CCCC9E /* ImageCell.xib in Resources */,
 				3AA06FE32526E13700A909B0 /* Assets.xcassets in Resources */,
+				3A5CA79F25B92B930029EC3C /* VTCalendarView.xib in Resources */,
 				3A1141EC252AD48D00AEFC7D /* EditViewController.xib in Resources */,
 				3A1141E6252AC6E300AEFC7D /* StaffTableViewCell.xib in Resources */,
+				3A5CA7A025B92B930029EC3C /* CalendarAssest.xcassets in Resources */,
 				3A3B41A1255A3B1C007E7C71 /* BaiTap2ViewController.xib in Resources */,
 				3AA06FE12526E13600A909B0 /* Main.storyboard in Resources */,
 				3A3B41AB255A3F91007E7C71 /* ZoomInTableViewCell.xib in Resources */,
@@ -308,13 +332,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A5CA79B25B92B930029EC3C /* CalendarViewCell.swift in Sources */,
 				3A37933D252878B50082AD64 /* BaseRequest.swift in Sources */,
 				3AC4E64F25B5774300ED8DEB /* CallAPI.swift in Sources */,
 				3A37933F25287AF30082AD64 /* StaffObject.swift in Sources */,
 				3AA06FDE2526E13600A909B0 /* ViewController.swift in Sources */,
 				3AD046DE25B56F6900CCCC9E /* BaiTap3Object.swift in Sources */,
 				3AD046DB25B56F5900CCCC9E /* BaiTap3ViewController.swift in Sources */,
+				3A5CA79A25B92B930029EC3C /* VTCalendarView.swift in Sources */,
 				3AA06FDA2526E13600A909B0 /* AppDelegate.swift in Sources */,
+				3A5CA79C25B92B930029EC3C /* VTCalendarViewDelegate.swift in Sources */,
 				3A3B41A6255A3EF5007E7C71 /* ZoomOutTableViewCell.swift in Sources */,
 				3A3B41A0255A3B1C007E7C71 /* BaiTap2ViewController.swift in Sources */,
 				3A1141E5252AC6E300AEFC7D /* StaffTableViewCell.swift in Sources */,
@@ -322,6 +349,7 @@
 				3AA06FDC2526E13600A909B0 /* SceneDelegate.swift in Sources */,
 				3A1141EB252AD48D00AEFC7D /* EditViewController.swift in Sources */,
 				3A3B41A3255A3CD7007E7C71 /* BaiTap2Object.swift in Sources */,
+				3A5CA79E25B92B930029EC3C /* VTDate.swift in Sources */,
 				3AD046E325B56FB200CCCC9E /* ImageCell.swift in Sources */,
 				3A1208EF255E29DA00FF583F /* BaiTap2ViewModel.swift in Sources */,
 				3A3B419B255A39EB007E7C71 /* MainViewController.swift in Sources */,
