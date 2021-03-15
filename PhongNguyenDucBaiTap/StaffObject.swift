@@ -26,6 +26,53 @@ class EmployeeObject: Mappable {
     }
 }
 
+class AlbumObject: Mappable {
+    var albums = [Albums]()
+    var photos = [Photos]()
+    required init?(map: Map) {
+
+       }
+    
+    func mapping(map: Map) {
+        albums <- map["albums"]
+        photos <- map["photos"]
+    }
+}
+
+class Albums: Mappable {
+    var id = 0
+    var title = ""
+    
+    required init?(map: Map) {
+
+       }
+    
+    func mapping(map: Map) {
+        id <- map["id"]
+        title <- map["title"]
+    }
+}
+
+class Photos: Mappable {
+    var id = 0
+    var title = ""
+    var albumId = 0
+    var url = ""
+    var thumbnailUrl = ""
+    
+    required init?(map: Map) {
+
+       }
+    
+    func mapping(map: Map) {
+        id <- map["id"]
+        title <- map["title"]
+        albumId <- map["albumId"]
+        url <- map["url"]
+        thumbnailUrl <- map["thumbnailUrl"]
+    }
+}
+
 class StaffObject: NSObject, Mappable {
     var address = ""
     var avatar = ""

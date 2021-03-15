@@ -42,6 +42,12 @@
 		3AD046DE25B56F6900CCCC9E /* BaiTap3Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD046DD25B56F6900CCCC9E /* BaiTap3Object.swift */; };
 		3AD046E225B56FB200CCCC9E /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AD046E025B56FB200CCCC9E /* ImageCell.xib */; };
 		3AD046E325B56FB200CCCC9E /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD046E125B56FB200CCCC9E /* ImageCell.swift */; };
+		DEBE315125FB07D000FF5249 /* OperationQueueListImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBE314F25FB07D000FF5249 /* OperationQueueListImageViewController.swift */; };
+		DEBE315225FB07D000FF5249 /* OperationQueueListImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEBE315025FB07D000FF5249 /* OperationQueueListImageViewController.xib */; };
+		DEC492A725F3797F009B743A /* OperaionQueueMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC492A525F3797F009B743A /* OperaionQueueMainViewController.swift */; };
+		DEC492A825F3797F009B743A /* OperaionQueueMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC492A625F3797F009B743A /* OperaionQueueMainViewController.xib */; };
+		DEC492AB25F379A8009B743A /* OperationQueueAlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC492A925F379A8009B743A /* OperationQueueAlbumTableViewCell.swift */; };
+		DEC492AC25F379A8009B743A /* OperationQueueAlbumTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC492AA25F379A8009B743A /* OperationQueueAlbumTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +90,12 @@
 		3AD046E025B56FB200CCCC9E /* ImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
 		3AD046E125B56FB200CCCC9E /* ImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		55552024A2A13319BE88B940 /* Pods_PhongNguyenDucBaiTap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhongNguyenDucBaiTap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEBE314F25FB07D000FF5249 /* OperationQueueListImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationQueueListImageViewController.swift; sourceTree = "<group>"; };
+		DEBE315025FB07D000FF5249 /* OperationQueueListImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OperationQueueListImageViewController.xib; sourceTree = "<group>"; };
+		DEC492A525F3797F009B743A /* OperaionQueueMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperaionQueueMainViewController.swift; sourceTree = "<group>"; };
+		DEC492A625F3797F009B743A /* OperaionQueueMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OperaionQueueMainViewController.xib; sourceTree = "<group>"; };
+		DEC492A925F379A8009B743A /* OperationQueueAlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationQueueAlbumTableViewCell.swift; sourceTree = "<group>"; };
+		DEC492AA25F379A8009B743A /* OperationQueueAlbumTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OperationQueueAlbumTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +162,7 @@
 				3A5CA79825B92B930029EC3C /* VTCalendarView.xib */,
 				3A5CA79525B92B920029EC3C /* VTCalendarViewDelegate.swift */,
 				3A5CA79725B92B930029EC3C /* VTDate.swift */,
+				DEC492A425F37961009B743A /* operationQueue */,
 				3AD046D825B56F3F00CCCC9E /* BaiTap3 */,
 				3A3B419D255A3B05007E7C71 /* BaiTap2 */,
 				3A1141E2252AC6C100AEFC7D /* Cell */,
@@ -205,6 +218,19 @@
 				55552024A2A13319BE88B940 /* Pods_PhongNguyenDucBaiTap.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEC492A425F37961009B743A /* operationQueue */ = {
+			isa = PBXGroup;
+			children = (
+				DEC492A525F3797F009B743A /* OperaionQueueMainViewController.swift */,
+				DEC492A625F3797F009B743A /* OperaionQueueMainViewController.xib */,
+				DEC492A925F379A8009B743A /* OperationQueueAlbumTableViewCell.swift */,
+				DEC492AA25F379A8009B743A /* OperationQueueAlbumTableViewCell.xib */,
+				DEBE314F25FB07D000FF5249 /* OperationQueueListImageViewController.swift */,
+				DEBE315025FB07D000FF5249 /* OperationQueueListImageViewController.xib */,
+			);
+			path = operationQueue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,16 +295,19 @@
 			files = (
 				3A3B41A7255A3EF5007E7C71 /* ZoomOutTableViewCell.xib in Resources */,
 				3A5CA79D25B92B930029EC3C /* CalendarViewCell.xib in Resources */,
+				DEC492AC25F379A8009B743A /* OperationQueueAlbumTableViewCell.xib in Resources */,
 				3AD046DC25B56F5900CCCC9E /* BaiTap3ViewController.xib in Resources */,
 				3AA06FE62526E13700A909B0 /* LaunchScreen.storyboard in Resources */,
 				3AD046E225B56FB200CCCC9E /* ImageCell.xib in Resources */,
 				3AA06FE32526E13700A909B0 /* Assets.xcassets in Resources */,
+				DEC492A825F3797F009B743A /* OperaionQueueMainViewController.xib in Resources */,
 				3A5CA79F25B92B930029EC3C /* VTCalendarView.xib in Resources */,
 				3A1141EC252AD48D00AEFC7D /* EditViewController.xib in Resources */,
 				3A1141E6252AC6E300AEFC7D /* StaffTableViewCell.xib in Resources */,
 				3A5CA7A025B92B930029EC3C /* CalendarAssest.xcassets in Resources */,
 				3A3B41A1255A3B1C007E7C71 /* BaiTap2ViewController.xib in Resources */,
 				3AA06FE12526E13600A909B0 /* Main.storyboard in Resources */,
+				DEBE315225FB07D000FF5249 /* OperationQueueListImageViewController.xib in Resources */,
 				3A3B41AB255A3F91007E7C71 /* ZoomInTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,8 +379,11 @@
 				3A1141EB252AD48D00AEFC7D /* EditViewController.swift in Sources */,
 				3A3B41A3255A3CD7007E7C71 /* BaiTap2Object.swift in Sources */,
 				3A5CA79E25B92B930029EC3C /* VTDate.swift in Sources */,
+				DEBE315125FB07D000FF5249 /* OperationQueueListImageViewController.swift in Sources */,
 				3AD046E325B56FB200CCCC9E /* ImageCell.swift in Sources */,
 				3A1208EF255E29DA00FF583F /* BaiTap2ViewModel.swift in Sources */,
+				DEC492AB25F379A8009B743A /* OperationQueueAlbumTableViewCell.swift in Sources */,
+				DEC492A725F3797F009B743A /* OperaionQueueMainViewController.swift in Sources */,
 				3A3B419B255A39EB007E7C71 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

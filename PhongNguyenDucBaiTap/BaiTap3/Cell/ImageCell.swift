@@ -34,4 +34,14 @@ class ImageCell: UITableViewCell {
         idLabel.text = String(image.id ?? 0)
         titleLabel.text = image.title
     }
+    
+    func bindDataPhoto(image: Photos) {
+        let url = URL(string: image.url)
+        let data = try? Data(contentsOf: url!) 
+        thumbnailImg.image = UIImage(data: data!)
+        
+        albumLabel.text = String(image.albumId )
+        idLabel.text = String(image.id )
+        titleLabel.text = image.title
+        }
 }
