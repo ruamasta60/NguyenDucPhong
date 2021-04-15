@@ -12,7 +12,7 @@
         <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="StaffTableViewCell" rowHeight="134" id="KGk-i7-Jjw" customClass="StaffTableViewCell" customModule="PhongNguyenDucBaiTap" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="320" height="134"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+            <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
                 <rect key="frame" x="0.0" y="0.0" width="320" height="134"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
@@ -125,17 +125,24 @@
                         <rect key="frame" x="250" y="56" width="70" height="22"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hdC-m0-X6Z">
-                                <rect key="frame" x="0.0" y="0.0" width="30" height="22"/>
+                                <rect key="frame" x="0.0" y="0.0" width="16.5" height="22"/>
                                 <state key="normal" image="square.and.pencil" catalog="system"/>
                                 <connections>
                                     <action selector="editAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Wtm-az-Nru"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8te-JB-sIi">
-                                <rect key="frame" x="40" y="0.0" width="30" height="22"/>
+                                <rect key="frame" x="26.5" y="0.0" width="17" height="22"/>
                                 <state key="normal" image="trash" catalog="system"/>
                                 <connections>
                                     <action selector="deleteAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="cCF-x8-Mak"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MLv-C2-KwP">
+                                <rect key="frame" x="53.5" y="0.0" width="16.5" height="22"/>
+                                <state key="normal" image="arrow.counterclockwise" catalog="system"/>
+                                <connections>
+                                    <action selector="copyClosure:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Jij-Fg-qWN"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -156,15 +163,17 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="addressLabel" destination="qFT-i1-JKA" id="LGS-M6-9Wm"/>
+                <outlet property="allView" destination="H2p-sc-9uM" id="uOf-pQ-cx2"/>
                 <outlet property="editButton" destination="hdC-m0-X6Z" id="nWH-IT-5iY"/>
                 <outlet property="nameLabel" destination="8gT-dp-ymJ" id="wh7-bJ-fFF"/>
                 <outlet property="positionLabel" destination="Ac6-7E-Eu3" id="hbO-Wi-tj8"/>
                 <outlet property="sexLabel" destination="em9-8C-Ioc" id="wGR-sS-wsP"/>
             </connections>
-            <point key="canvasLocation" x="136.23188405797103" y="83.705357142857139"/>
+            <point key="canvasLocation" x="-300" y="35"/>
         </tableViewCell>
     </objects>
     <resources>
+        <image name="arrow.counterclockwise" catalog="system" width="56" height="64"/>
         <image name="square.and.pencil" catalog="system" width="64" height="58"/>
         <image name="trash" catalog="system" width="60" height="64"/>
     </resources>

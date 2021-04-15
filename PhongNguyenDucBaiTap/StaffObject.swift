@@ -108,6 +108,10 @@ class StaffObject: NSObject, Mappable {
         name <- map["name"]
         status <- map["status"]
     }
+    
+    func clone() -> StaffObject {
+        return StaffObject.init(JSON: self.toJSON())!
+    }
 }
 
 class DayObject: NSObject {

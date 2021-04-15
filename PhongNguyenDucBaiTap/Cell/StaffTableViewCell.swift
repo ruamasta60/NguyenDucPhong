@@ -13,15 +13,18 @@ class StaffTableViewCell: UITableViewCell {
     @IBOutlet weak var addressLabel: UILabel!
     @IBOutlet weak var sexLabel: UILabel!
     @IBOutlet weak var positionLabel: UILabel!
+    @IBOutlet weak var allView: UIView!
     
     var index = 0
     var editClosure: (() -> Void)?
     var deleteClosure: (() -> Void)?
+    var cloneClosure: (() -> Void)?
     @IBOutlet weak var editButton: UIButton!
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        
     }
     
     func bindData(_ object: StaffObject) {
@@ -40,6 +43,12 @@ class StaffTableViewCell: UITableViewCell {
     @IBAction func deleteAction(_ sender: Any) {
         if let delete = self.deleteClosure {
             delete()
+        }
+    }
+    
+    @IBAction func copyClosure(_ sender: Any) {
+        if let copy = self.cloneClosure {
+            copy()
         }
     }
     

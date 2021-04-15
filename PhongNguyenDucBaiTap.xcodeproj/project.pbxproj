@@ -48,6 +48,8 @@
 		DEC492A825F3797F009B743A /* OperaionQueueMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC492A625F3797F009B743A /* OperaionQueueMainViewController.xib */; };
 		DEC492AB25F379A8009B743A /* OperationQueueAlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC492A925F379A8009B743A /* OperationQueueAlbumTableViewCell.swift */; };
 		DEC492AC25F379A8009B743A /* OperationQueueAlbumTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC492AA25F379A8009B743A /* OperationQueueAlbumTableViewCell.xib */; };
+		DEE951E8262832CB0001CC3B /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE951E6262832CB0001CC3B /* PopupViewController.swift */; };
+		DEE951E9262832CB0001CC3B /* PopupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEE951E7262832CB0001CC3B /* PopupViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -96,6 +98,8 @@
 		DEC492A625F3797F009B743A /* OperaionQueueMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OperaionQueueMainViewController.xib; sourceTree = "<group>"; };
 		DEC492A925F379A8009B743A /* OperationQueueAlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationQueueAlbumTableViewCell.swift; sourceTree = "<group>"; };
 		DEC492AA25F379A8009B743A /* OperationQueueAlbumTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OperationQueueAlbumTableViewCell.xib; sourceTree = "<group>"; };
+		DEE951E6262832CB0001CC3B /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		DEE951E7262832CB0001CC3B /* PopupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopupViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +159,7 @@
 		3AA06FD82526E13600A909B0 /* PhongNguyenDucBaiTap */ = {
 			isa = PBXGroup;
 			children = (
+				DEE951E1262831BA0001CC3B /* Popup */,
 				3A5CA79925B92B930029EC3C /* CalendarAssest.xcassets */,
 				3A5CA79425B92B910029EC3C /* CalendarViewCell.swift */,
 				3A5CA79625B92B920029EC3C /* CalendarViewCell.xib */,
@@ -233,6 +238,15 @@
 			path = operationQueue;
 			sourceTree = "<group>";
 		};
+		DEE951E1262831BA0001CC3B /* Popup */ = {
+			isa = PBXGroup;
+			children = (
+				DEE951E6262832CB0001CC3B /* PopupViewController.swift */,
+				DEE951E7262832CB0001CC3B /* PopupViewController.xib */,
+			);
+			path = Popup;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -303,6 +317,7 @@
 				DEC492A825F3797F009B743A /* OperaionQueueMainViewController.xib in Resources */,
 				3A5CA79F25B92B930029EC3C /* VTCalendarView.xib in Resources */,
 				3A1141EC252AD48D00AEFC7D /* EditViewController.xib in Resources */,
+				DEE951E9262832CB0001CC3B /* PopupViewController.xib in Resources */,
 				3A1141E6252AC6E300AEFC7D /* StaffTableViewCell.xib in Resources */,
 				3A5CA7A025B92B930029EC3C /* CalendarAssest.xcassets in Resources */,
 				3A3B41A1255A3B1C007E7C71 /* BaiTap2ViewController.xib in Resources */,
@@ -361,6 +376,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEE951E8262832CB0001CC3B /* PopupViewController.swift in Sources */,
 				3A5CA79B25B92B930029EC3C /* CalendarViewCell.swift in Sources */,
 				3A37933D252878B50082AD64 /* BaseRequest.swift in Sources */,
 				3AC4E64F25B5774300ED8DEB /* CallAPI.swift in Sources */,

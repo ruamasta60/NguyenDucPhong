@@ -74,6 +74,17 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             print("delete at \(indexPath.row)")
             self.showAlert(indexPath.row)
         }
+        cell.cloneClosure = {
+            let newObject = self.list[indexPath.row].clone()
+            newObject.name = "phongnd2"
+            print(newObject)
+            
+            let popup = PopupViewController()
+            popup.nameStr = newObject.name
+            popup.modalPresentationStyle = .overFullScreen
+            popup.modalTransitionStyle = .crossDissolve
+            self.navigationController?.present(popup, animated: true, completion: nil)
+        }
         
         return cell
     }
